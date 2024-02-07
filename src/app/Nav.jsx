@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './page.module.css'
+//import Logo from "./img/logo.png"
 import { Button } from '@mui/material';
 export const Nav = ()=>{
     return(
@@ -12,7 +13,7 @@ export const Nav = ()=>{
                 <Button variant="contained"><Link href={'/empresa'} style={{color:"#ffffff",textDecoration:"none"}}>Empresa</Link></Button>                 
                 </li>
                 <li style={{listStyle:"none"}}>
-                <Button variant="contained"><Link href={'/proyecto'} style={{color:"#ffffff",textDecoration:"none"}}>Proyecto</Link></Button>
+                <Button variant="contained"><Link href={'/proyectos'} style={{color:"#ffffff",textDecoration:"none"}}>Proyecto</Link></Button>
                 </li>
                 <li style={{listStyle:"none"}}>
                 <Button variant="contained"><Link href={'/contacto'} style={{color:"#ffffff",textDecoration:"none"}}>Contacto</Link></Button>

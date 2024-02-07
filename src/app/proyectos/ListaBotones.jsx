@@ -1,7 +1,7 @@
 import './style.css'
 
 
-export function ListaBotones(name, size){
+export function ListaBotones({name, size}){
     const titulo = name;
     const largo = size;
     const botones = Array.from({ length: largo }, (_, index) => (
