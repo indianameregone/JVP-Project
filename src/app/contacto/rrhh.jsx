@@ -2,7 +2,7 @@
 export const RRHH = ()=>{
     return(
         <>
-        <div style={{width:'60%',marginTop:"10px",height:"80%"}}>
+        <div style={{marginTop:"10px",height:"80%",width:"600px"}}>
             <h3>RR.HH</h3>
             <hr></hr>
         <p>En JVP Consultores entendemos a nuestro staff como el recurso estratégico que hace girar los engranes
