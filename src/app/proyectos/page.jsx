@@ -1,12 +1,13 @@
-import './style.css'
-import { ListaBotones } from './ListaBotones'
+import {BasicList} from './BasicList';
 
 function Proyectos(){
 
     return(
-        
-            <ListaBotones name="Test" size="5"/>
-        
+        <>
+            <BasicList />
+
+            
+        </>
     )
 
 }
