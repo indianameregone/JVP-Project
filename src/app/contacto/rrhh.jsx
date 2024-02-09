@@ -2,7 +2,7 @@
 export const RRHH = ()=>{
     return(
         <>
-        <div style={{width:'60%',marginTop:"10px",height:"80%"}}>
+        <div style={{marginTop:"10px",height:"80%",width:"600px"}}>
             <h3>RR.HH</h3>
             <hr></hr>
         <p>En JVP Consultores entendemos a nuestro staff como el recurso estratégico que hace girar los engranes
@@ -10,7 +10,7 @@ export const RRHH = ()=>{
         confianza mutua, autonomía,
          y creemos en la sinergia de un equipo multidiciplinámico.
         Si te encuentras interesado en trabajar en una Empresa donde valoren las competencias, 
-        capacidades, capital humano, aprendizaje, y desarrollo, envíanos tu CV a RRHH@jvpconsultores.com.ar.</p>
+        capacidades, capital humano, aprendizaje, y desarrollo, envíanos tu CV a <strong>RRHH@jvpconsultores.com.ar</strong>.</p>
         </div>
         </>
     )

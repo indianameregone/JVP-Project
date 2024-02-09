@@ -1,11 +1,11 @@
 import { Nav } from "../Nav"
 
-const Home =()=>{
+function Servicios(){
     return(
         <>
         <Nav/>
-        <h2>Home</h2>
+        <h1>Servicios</h1>
         </>
     )
 }
-export default Home
+export default Servicios

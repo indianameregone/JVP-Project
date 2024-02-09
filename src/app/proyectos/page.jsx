@@ -1,4 +1,6 @@
+
 import BasicList from "./BasicList";
+
 
 function Page() {
     
@@ -16,5 +18,4 @@ function Page() {
     </>
   );
 }
-
-export default BasicList;
+export default Page;
