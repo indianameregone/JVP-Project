@@ -1,14 +1,20 @@
-import {BasicList} from './BasicList';
+import BasicList from "./BasicList";
 
-function Proyectos(){
+function Page() {
+    
+    const lista1 = [
+        { text : 'Inbox' },
+        { text : 'Drafts' },
+        { text : 'Trash' },
+        { text : 'Spam' },
+        { text : 'algo' }
+      ];
 
-    return(
-        <>
-            <BasicList />
-
-            
-        </>
-    )
-
+    return (
+    <>
+        <BasicList listItems={lista1}/>
+    </>
+  );
 }
-export default Proyectos
+
+export default BasicList;
