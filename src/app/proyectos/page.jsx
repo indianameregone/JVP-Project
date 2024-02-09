@@ -1,14 +1,12 @@
-/* import {BasicList} from './BasicList';
+import {style} from './style.css'
+import BasicList from "./BasicList";
+import Menu from "./Menu";
 
-function Proyectos(){
-
+function Page() {
     return(
-        <>
-            <BasicList />
-
-            
-        </>
-    )
-
+    <>
+        <Menu />
+    </>
+  );
 }
-export default Proyectos */
+export default Page;

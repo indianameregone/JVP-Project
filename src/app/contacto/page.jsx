@@ -18,6 +18,10 @@ const Contacto = ()=>{
         <Nav />
         <div style={{display:"flex",width:"100%"}}>
             <section style={{display:"flex",flexDirection:"column", width:"200px",padding:"0 20px 0 20px",gap:"5px",marginTop:"10px"}}>
+            <img style={{height: "100px"}}
+      src="https://static.wixstatic.com/media/8e00bb_89c81504de6a4b7495adb97d57c0d84e~mv2.png/v1/crop/x_24,y_0,w_785,h_432/fill/w_200,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOGO%20GOTA%20.png"
+      alt="Logo"
+    />
             <Button variant="contained" onClick={()=>{
             setMapa(<Mapa/>)
             setConsulta('')
