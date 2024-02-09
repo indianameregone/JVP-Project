@@ -13,6 +13,9 @@ export const Nav = ()=>{
                 <Button variant="contained"><Link href={'/empresa'} style={{color:"#ffffff",textDecoration:"none"}}>Empresa</Link></Button>                 
                 </li>
                 <li style={{listStyle:"none"}}>
+                <Button variant="contained"><Link href={'/servicios'} style={{color:"#ffffff",textDecoration:"none"}}>Servicios</Link></Button>                 
+                </li>
+                <li style={{listStyle:"none"}}>
                 <Button variant="contained"><Link href={'/proyectos'} style={{color:"#ffffff",textDecoration:"none"}}>Proyecto</Link></Button>
                 </li>
                 <li style={{listStyle:"none"}}>

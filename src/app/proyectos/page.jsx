@@ -1,4 +1,4 @@
-import {BasicList} from './BasicList';
+/* import {BasicList} from './BasicList';
 
 function Proyectos(){
 
@@ -11,4 +11,4 @@ function Proyectos(){
     )
 
 }
-export default Proyectos
+export default Proyectos */

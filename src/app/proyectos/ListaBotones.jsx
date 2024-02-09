@@ -1,4 +1,4 @@
-import './style.css'
+/* import './style.css'
 import ListItemText from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
@@ -28,4 +28,4 @@ export function ListaBotones({name, size}){
        
     )
 
-}
+} */

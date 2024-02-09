@@ -10,7 +10,7 @@ export const RRHH = ()=>{
         confianza mutua, autonomía,
          y creemos en la sinergia de un equipo multidiciplinámico.
         Si te encuentras interesado en trabajar en una Empresa donde valoren las competencias, 
-        capacidades, capital humano, aprendizaje, y desarrollo, envíanos tu CV a RRHH@jvpconsultores.com.ar.</p>
+        capacidades, capital humano, aprendizaje, y desarrollo, envíanos tu CV a <strong>RRHH@jvpconsultores.com.ar</strong>.</p>
         </div>
         </>
     )
