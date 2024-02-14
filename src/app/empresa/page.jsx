@@ -10,6 +10,7 @@ import { Nav } from "../Nav"
 import { Button } from '@mui/material';
 import { useState } from "react"
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Footer } from "../footer";
 const theme = createTheme({
     palette: {
         primary: {
@@ -114,6 +115,7 @@ const Empresa = () => {
                     </div>
                 </ThemeProvider>
             </div>
+            <Footer />
         </>
     )
 }
