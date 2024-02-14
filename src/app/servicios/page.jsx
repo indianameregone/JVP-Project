@@ -10,6 +10,7 @@ import { Construccion } from "./construccion";
 import { Asesoramiento } from "./asesoramiento";
 import { Auditoria } from "./auditoria";
 import { Consultoria } from "./consultoria";
+import { Footer } from "../footer";
 
 const theme = createTheme({
     palette: {
@@ -117,6 +118,7 @@ const Servicios=()=>{
             </div>
             
         </div>
+        <Footer/>
         </>
     )
 }
