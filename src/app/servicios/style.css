@@ -1,0 +1,9 @@
+.style-btn{
+    background-color: #0E3354;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+.style-btn:hover{
+    scale: 1.2;
+}
