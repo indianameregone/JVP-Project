@@ -7,3 +7,81 @@
 .style-btn:hover{
     scale: 1.2;
 }
+.main-block{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.arrow{
+    width: 80px;
+    height: 300px;
+    background-color: #0E3354;
+    clip-path: polygon(20% 0%, 100% 50%, 20% 100%, 0% 100%, 80% 50%, 0% 0%);
+}
+.btn-block{
+    width: 150px;
+    height: 60px;
+    background-color: #0E3354;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+.btn-adv{
+    width: 150px;
+    height: 200px;
+    background-color: whitesmoke;
+    color: #0E3354;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+.btn-adv p{
+    font-size: 12px;
+}
+.btn-block p{
+    font-size: 12px;
+}
+.design-block{
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin-top: 15px;
+}
+.d-block{
+    width: 100px;
+    height: 100px;
+    border: #0E3354 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+#d-block-2{
+    background-color:#0E3354 ;
+    color: whitesmoke;
+}
+#d-block-1{
+    background-color: whitesmoke ;
+    color: #0E3354;
+}
+#d-block-2:hover{
+    background-color: whitesmoke ;
+    color: #0E3354;   
+    scale: 1.1;
+}
+#d-block-1:hover{
+    background-color:#0E3354 ;
+    color: whitesmoke;  
+    scale: 1.1;
+}
+.design-block div p{
+    width: 70%;       
+    font-size: 11px;
+}
