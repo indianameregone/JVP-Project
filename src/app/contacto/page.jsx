@@ -8,6 +8,7 @@ import {RRHH} from "./rrhh"
 import { Button } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from "react"
+import { Footer } from "../footer"
 
 const theme = createTheme({
     palette: {
@@ -68,6 +69,7 @@ const Contacto = ()=>{
                 {rrhh}
             </div>
         </div>
+        <Footer/>
         </>
     )
 }
